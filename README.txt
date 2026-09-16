@@ -1,11 +1,11 @@
-# Interpretable single-cell multi-omics clustering with conditional mutual information boundaries
-We provide a demo on the GSE100866 dataset for our submitted paper, ``Interpretable single-cell multi-omics clustering with conditional mutual information boundaries.'' Run main.py to reproduce the training process of the model.
+# Title: Interpretable single-cell multi-omics clustering with conditional mutual information boundaries
 
-## Datasets
-The GSE100866 dataset is provided in the “data” folder, while the other datasets can be downloaded from their corresponding official sources.
+# The GSE100866 dataset is provided in the “data” folder, while the other datasets can be downloaded from their corresponding official sources.
 
-## Test Results
-As shown in the paper: Interpretable single-cell multi-omics clustering with conditional mutual information boundaries. Run main.py to show the training process of the model.
+## To train a new model, run:
+   python main.py
+
+# The experiments are carried out on a Ubuntu PC with NVIDIA RTX-4090 GPU (24.0GB caches).
 
 --Required Python Packages
 
