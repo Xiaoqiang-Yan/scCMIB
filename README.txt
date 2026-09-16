@@ -2,7 +2,7 @@
 
 # The GSE100866 dataset is provided in the “data” folder, while the other datasets can be downloaded from their corresponding official sources.
 
-## To train a new model, run:
+# To train a new model, run:
    python main.py
 
 # The experiments are carried out on a Ubuntu PC with NVIDIA RTX-4090 GPU (24.0GB caches).
