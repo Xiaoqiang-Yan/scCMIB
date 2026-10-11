@@ -104,25 +104,25 @@ class Spector(Dataset):
 def load_data(dataset):
     if dataset == "GSE100866":
         dataset = GSE100866('./data/')
-        dims = [2000,10]  
+        dims = [2000, 10]  
         view = 2
         data_size = 1182
         class_num = 6
     elif dataset == "GSE128639":
         dataset = GSE128639('./data/')
-        dims = [2000,25]  
+        dims = [2000, 25]  
         view = 2
         data_size = 30672
         class_num = 27
     elif dataset == "PBMC10k":
         dataset = PBMC10k('./data/')
-        dims = [2000,2000]     
+        dims = [2000, 2000]     
         view = 2
         data_size = 11020
         class_num = 12
     elif dataset == "PBMC3k":
         dataset = PBMC3k('./data/')
-        dims = [2000,2000]  
+        dims = [2000, 2000]  
         view = 2
         data_size = 2585
         class_num = 14
@@ -134,7 +134,7 @@ def load_data(dataset):
         class_num = 6
     elif dataset == "PBMC_Spector":
         dataset = Spector('./data/')
-        dims = [2000,49]  
+        dims = [2000, 49]  
         view = 2
         data_size = 3762
         class_num = 16
