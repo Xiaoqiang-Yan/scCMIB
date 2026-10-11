@@ -35,7 +35,7 @@ class Encoder(nn.Module):
         out_layers.append(out)
         out=self.layer4(out)
         out_layers.append(out)
-        return out,out_layers
+        return out, out_layers
 
     
 class Decoder(nn.Module):
@@ -70,7 +70,7 @@ class Decoder(nn.Module):
         out = self.layer3(out)
         de_layers.append(out)
         out = self.layer4(out)
-        return out,de_layers
+        return out, de_layers
 
     
 class Network(nn.Module):
@@ -162,7 +162,7 @@ class Network(nn.Module):
             c_de_layers.append(c_de_layer)
             c_hs.append(c_h)                        
             c_qs.append(c_q)                       
-        return hs,qs, xrs, zs,c_layers,c_hs,c_qs,c_de_layers
+        return hs, qs, xrs, zs, c_layers, c_hs, c_qs, c_de_layers
 
     def forward_plot(self, xs):
         zs = []
