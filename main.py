@@ -1,9 +1,9 @@
-from network import Network,MultiHeadAttention, FeedForwardNetwork
+from network import Network, MultiHeadAttention, FeedForwardNetwork
 from metric import valid
 from MI import hsic_normalized_cca 
 from collections import Counter
 from lightly.loss import NTXentLoss
-from utils import UD_constraint,unite 
+from utils import UD_constraint, unite 
 from dataloader import load_data
 import numpy as np
 import argparse
