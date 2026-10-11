@@ -5,7 +5,7 @@
 # To train a new model, run:
    python main.py
 
-# The experiments are carried out on a Ubuntu PC with NVIDIA RTX-4090 GPU (24.0GB caches).
+# The experiments are carried out on an Ubuntu PC with an NVIDIA RTX-4090 GPU (24.0 GB cache).
 
 --Required Python Packages
 
