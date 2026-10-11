@@ -20,10 +20,3 @@ scikit-learn>=1.3.2
 scipy>=1.10.1
 
 lightly>=1.5.18
-
-
-
-
-
-
-
