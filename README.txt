@@ -1,11 +1,11 @@
 # Title: Interpretable single-cell multi-omics clustering with conditional mutual information boundaries
 
-# The GSE100866 dataset is provided in the “data” folder, while the other datasets can be downloaded from their corresponding official sources.
-
 # To train a new model, run:
    python main.py
 
-# The experiments are carried out on an Ubuntu PC with an NVIDIA RTX-4090 GPU (24.0 GB cache).
+# The GSE100866 dataset is provided in the “data” folder, while the other datasets can be downloaded from their corresponding official sources.
+
+# The experiments are carried out on an Ubuntu PC with an NVIDIA RTX 4090 GPU (24.0 GB VRAM), 16 vCPU Intel(R) Xeon(R) Gold 6430, and 120.0 GB RAM.
 
 --Required Python Packages
 
